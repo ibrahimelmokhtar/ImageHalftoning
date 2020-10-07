@@ -46,6 +46,7 @@ for index = 1:length(images)
 
     % save modified image:
     modified_name = strcat('results\modified_', img_name);
+    img_modified = imresize(img_modified, 0.3333);
     imwrite(img_modified, modified_name);
 end
 
