@@ -50,3 +50,4 @@ for index = 1:length(images)
 end
 
 fprintf('\t Done! \n');
+beep;
